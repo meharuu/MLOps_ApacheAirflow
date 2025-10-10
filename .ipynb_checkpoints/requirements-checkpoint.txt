@@ -1,0 +1,14 @@
+apache-airflow==2.5.1
+pandas
+great_expectations
+sqlalchemy
+requests
+python-dotenv
+pandas
+sqlalchemy
+psycopg2-binary
+great_expectations
+fastapi
+uvicorn
+joblib
+streamlit
