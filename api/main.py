@@ -5,6 +5,7 @@ import pandas as pd
 import joblib
 import json
 
+<<<<<<< HEAD
 # Initialize FastAPI
 app = FastAPI(title="Accident Risk Predictor API")
 
@@ -64,3 +65,6 @@ def get_past_predictions():
         )
         rows = result.mappings().all()   # returns list of dictionaries
     return [dict(r) for r in rows]
+=======
+# NO import from app.py or streamlit!
+>>>>>>> 93270d9 (Fix FastAPI backend and Streamlit connection issues)
