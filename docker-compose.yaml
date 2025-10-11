@@ -1,0 +1,100 @@
+#version: '3.8'
+
+services:
+  # 1. API Service (FastAPI)
+
+  api:
+    build:
+      context: .
+      # CHANGE THIS LINE: point to the 'api' subdirectory
+      dockerfile: api/Dockerfile.fastapi  # <--- FIX IS HERE
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    # ... rest of configuration
+    depends_on:
+      - postgres
+      # - model_service # Uncomment if API depends on a dedicated model service
+    env_file:
+      - .env
+    networks:
+      - calamity_network
+
+  # 2. Frontend/Dashboard Service (Streamlit)
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501" # Expose the Streamlit port
+    volumes:
+      - .:/app
+    depends_on:
+      - api
+    env_file:
+      - .env
+    networks:
+      - calamity_network
+
+  # 3. Model/ML Environment Service
+  model_service:
+    build:
+      context: .
+      dockerfile: Dockerfile.model
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    networks:
+      - calamity_network
+    # Use 'restart: "no"' if this is primarily for manually triggered training/tasks
+    restart: "no" 
+
+  # 4. Airflow Workflow Orchestration
+  airflow:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    ports:
+      - "8080:8080" # Airflow Webserver
+    volumes:
+      # Mount DAGs, logs, and plugins
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+    # Add environment variables specific to Airflow setup here
+    environment:
+      - AIRFLOW_DB_HOST=postgres
+      - AIRFLOW_DB_USER=${POSTGRES_USER}
+      - AIRFLOW_DB_PASSWORD=${POSTGRES_PASSWORD}
+      - AIRFLOW_DB=airflow # Separate database for Airflow metadata
+    networks:
+      - calamity_network
+
+  # 5. Database Service (PostgreSQL)
+  postgres:
+    image: postgres:15-alpine # Use the standard, reliable Postgres image
+    restart: always
+    env_file:             # <--- CRITICAL: MUST INCLUDE THIS
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    networks:
+      - calamity_network
+
+volumes:
+  postgres_data:
+  # airflow_dags: # No need to declare if mounting to ./airflow/dags
+
+networks:
+  calamity_network:
+    driver: bridge
