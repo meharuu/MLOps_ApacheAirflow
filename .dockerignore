@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pkl
+.env
+*.log
+*.tmp
+__pycache__/
+*.pyc
+*.pkl
+.env
+__pycache__/
+*.pyc
+.env
