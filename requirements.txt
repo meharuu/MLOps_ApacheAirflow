@@ -1,0 +1,38 @@
+# Core ML & Data
+numpy
+pandas
+scikit-learn
+joblib
+
+# API
+fastapi
+uvicorn
+pydantic
+
+# Database
+psycopg2-binary
+sqlalchemy
+alembic
+
+# Data Validation
+great-expectations
+
+
+# Scheduling
+apache-airflow
+apache-airflow-providers-postgres
+
+# UI
+streamlit
+
+# Utilities
+python-dotenv
+requests
+pydantic-settings
+
+# Logging & Monitoring
+python-logging-loki
+
+# Testing
+pytest
+pytest-cov

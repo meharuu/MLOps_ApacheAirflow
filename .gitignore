@@ -1,0 +1,10 @@
+
+*.pkl
+*.pyc
+__pycache__/
+.env
+.pytest_cache/
+*.log
+postgres_data/
+airflow/logs/
+
