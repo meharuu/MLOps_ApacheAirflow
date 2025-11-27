@@ -1,0 +1,501 @@
+id,road_type,num_lanes,curvature,speed_limit,lighting,weather,road_signs_present,public_road,time_of_day,holiday,school_season,num_reported_accidents,accident_risk
+102000,rural,3,0.88,35,daylight,clear,True,False,afternoon,True,False,3,0.39
+102001,highway,3,0.89,25,daylight,foggy,True,True,evening,False,False,2,0.37
+102002,  rural  ,3,0.06,35,dim,foggy,True,True,morning,True,False,1,0.13
+102003,highway,3,0.72,60,dim,  clear  ,True,False,afternoon,False,False,2,0.36
+102004,highway,2,0.26,25,daylight,clear,True,False,evening,False,True,2,0.12
+102005,urban,3,0.57,70,daylight,clear,True,False,morning,True,False,1,0.44
+102006,  highway  ,2,0.56,70,dim,clear,True,False,  afternoon  ,False,False,0,0.37
+102007,highway,2,0.86,45,daylight,foggy,True,True,  evening  ,False,True,3,0.4
+102008,rural,3,0.77,35,night,foggy,True,False,evening,True,True,0,0.5
+102009,highway,3,0.38,45,  daylight  ,foggy,False,True,  afternoon  ,True,False,2,0.25
+102010,highway,4,0.14,60,daylight,clear,False,False,morning,True,True,1,0.24
+102011,highway,2,0.99,25,daylight,rainy,True,True,morning,False,True,3,0.5
+102012,rural,3,0.32,60,  daylight  ,foggy,False,False,morning,True,True,1,0.39
+102013,highway,4,0.38,35,night,rainy,True,True,evening,False,True,1,0.42
+102014,urban,2,0.58,35,daylight,rainy,True,True,morning,False,True,1,0.29
+102015,highway,4,0.55,70,daylight,clear,True,True,afternoon,True,False,3,0.51
+102016,highway,1,0.26,25,dim,rainy,False,False,morning,False,True,2,0.17
+102017,urban,4,0.53,25,dim,clear,False,True,evening,False,True,0,0.18
+102018,rural,1,0.59,25,night,foggy,False,True,afternoon,True,True,2,0.53
+102019,urban,1,0.08,25,night,clear,True,False,afternoon,False,True,0,0.28
+102020,urban,1,0.88,35,dim,rainy,True,True,morning,True,True,2,0.37
+102021,highway,1,0.6,60,daylight,foggy,True,True,afternoon,False,True,3,0.67
+102022,rural,3,0.86,35,dim,clear,False,True,morning,False,True,3,0.34
+102023,urban,3,0.73,25,daylight,clear,True,True,evening,True,False,1,0.27
+102024,  highway  ,1,0.18,60,night,clear,False,True,afternoon,False,True,1,0.57
+102025,urban,4,0.09,35,  dim  ,foggy,False,True,  evening  ,True,False,0,0.12
+102026,urban,4,0.42,25,night,clear,False,False,afternoon,False,False,1,0.25
+102027,rural,3,0.74,70,daylight,foggy,True,False,morning,True,True,0,0.55
+102028,highway,4,0.43,70,  daylight  ,rainy,True,True,morning,True,True,0,0.4
+102029,rural,4,0.74,60,dim,clear,True,True,morning,False,False,0,0.36
+102030,rural,3,0.0,25,night,  foggy  ,False,False,morning,False,False,2,0.26
+102031,highway,4,0.12,60,daylight,rainy,False,True,evening,False,True,1,0.33
+102032,urban,2,0.85,45,daylight,foggy,True,False,afternoon,False,True,2,0.38
+102033,rural,4,0.79,25,daylight,clear,False,True,evening,True,False,1,0.25
+102034,urban,3,0.63,70,daylight,clear,True,True,evening,True,False,1,0.35
+102035,rural,1,0.88,25,dim,foggy,False,False,afternoon,True,True,2,0.41
+102036,highway,2,0.86,70,daylight,  rainy  ,False,True,afternoon,True,True,3,0.62
+102037,highway,3,0.71,70,night,clear,True,False,morning,True,False,1,0.61
+102038,  urban  ,3,0.28,25,daylight,rainy,True,False,morning,False,True,1,0.22
+102039,rural,1,0.37,25,dim,rainy,True,False,morning,False,True,1,0.18
+102040,highway,1,0.49,35,daylight,rainy,True,True,afternoon,False,True,1,0.23
+102041,rural,3,0.19,35,dim,rainy,False,False,morning,False,False,1,0.19
+102042,urban,1,0.12,60,dim,clear,False,True,morning,True,True,2,0.26
+102043,highway,4,0.6,70,dim,clear,False,False,afternoon,True,False,1,0.45
+102044,  urban  ,4,0.49,70,daylight,foggy,True,False,evening,False,True,2,0.47
+102045,highway,2,0.85,60,night,clear,True,True,evening,True,True,0,0.62
+102046,rural,2,0.08,45,dim,foggy,False,False,afternoon,False,False,0,0.12
+102047,highway,3,0.09,70,  daylight  ,rainy,False,True,afternoon,True,False,1,0.26
+102048,highway,3,0.52,35,night,rainy,True,False,evening,False,True,1,0.48
+102049,rural,2,0.57,25,night,foggy,True,False,evening,True,False,1,0.56
+102050,rural,1,0.48,70,daylight,rainy,True,True,afternoon,True,False,2,0.48
+102051,highway,1,0.3,60,daylight,clear,False,True,evening,False,True,2,0.26
+102052,rural,2,0.98,70,  daylight  ,foggy,True,True,morning,True,False,1,0.57
+102053,urban,4,0.47,60,daylight,rainy,True,False,afternoon,False,True,1,0.41
+102054,urban,1,0.77,60,night,rainy,True,False,morning,False,True,0,0.78
+102055,urban,3,0.99,25,night,clear,True,True,afternoon,False,False,2,0.49
+102056,highway,1,0.84,45,dim,clear,False,False,evening,False,True,2,0.18
+102057,highway,3,0.62,25,night,foggy,False,False,morning,True,True,2,0.47
+102058,highway,3,0.04,45,dim,foggy,True,True,afternoon,False,False,1,0.15
+102059,urban,2,0.25,25,night,rainy,True,False,  morning  ,False,False,1,0.44
+102060,highway,3,0.1,35,night,foggy,True,True,morning,False,True,1,0.31
+102061,highway,4,0.57,25,daylight,rainy,False,False,afternoon,True,False,1,0.38
+102062,highway,3,0.64,35,dim,rainy,True,True,afternoon,False,True,1,0.3
+102063,highway,1,0.51,25,dim,  foggy  ,True,True,morning,False,True,0,0.23
+102064,urban,4,0.21,60,daylight,foggy,False,True,evening,True,False,1,0.38
+102065,rural,3,0.1,25,daylight,foggy,False,True,evening,False,False,0,0.16
+102066,urban,2,0.05,45,daylight,rainy,False,True,evening,True,True,2,0.12
+102067,urban,2,0.94,25,daylight,clear,True,True,evening,True,False,1,0.16
+102068,rural,4,0.28,70,daylight,clear,False,True,morning,True,True,0,0.27
+102069,rural,1,0.71,45,daylight,clear,True,False,morning,False,False,2,0.15
+102070,highway,2,0.07,60,daylight,foggy,False,True,afternoon,False,False,2,0.28
+102071,highway,4,0.49,25,daylight,clear,False,False,morning,True,True,1,0.09
+102072,highway,1,0.34,25,daylight,rainy,False,False,evening,False,False,2,0.31
+102073,rural,2,0.36,45,dim,clear,False,False,afternoon,False,False,1,0.12
+102074,urban,4,0.72,70,daylight,clear,False,False,evening,True,True,0,0.45
+102075,urban,2,0.75,60,  dim  ,rainy,False,True,evening,True,False,0,0.55
+102076,urban,2,0.02,60,night,  clear  ,False,False,morning,True,True,0,0.47
+102077,urban,2,0.58,25,dim,foggy,True,False,evening,False,False,1,0.29
+102078,urban,2,0.65,60,dim,clear,False,True,evening,True,False,0,0.4
+102079,rural,2,0.58,45,night,clear,True,True,afternoon,False,False,2,0.45
+102080,rural,3,0.14,70,daylight,clear,False,True,afternoon,True,False,1,0.38
+102081,urban,1,0.15,60,daylight,clear,True,True,evening,True,True,2,0.27
+102082,urban,3,0.25,25,daylight,rainy,False,False,evening,False,False,1,0.23
+102083,highway,3,0.84,35,dim,rainy,False,False,evening,True,True,2,0.4
+102084,urban,4,0.12,60,night,clear,True,True,evening,False,True,2,0.46
+102085,rural,3,0.3,45,daylight,clear,False,True,evening,False,True,0,0.08
+102086,rural,1,0.03,45,dim,rainy,True,False,evening,True,False,1,0.0
+102087,rural,1,0.61,35,dim,rainy,True,True,afternoon,True,False,0,0.27
+102088,  highway  ,1,0.42,35,night,rainy,True,False,morning,False,False,1,0.42
+102089,urban,3,0.88,35,daylight,  foggy  ,False,False,morning,False,True,3,0.35
+102090,highway,1,0.6,35,dim,clear,True,False,morning,True,True,2,0.18
+102091,highway,1,0.61,35,dim,clear,False,False,afternoon,True,True,1,0.15
+102092,highway,4,0.21,70,daylight,foggy,True,True,afternoon,False,False,2,0.35
+102093,urban,1,0.19,35,night,foggy,False,True,evening,False,True,2,0.33
+102094,rural,3,0.87,25,dim,foggy,False,True,afternoon,True,False,3,0.42
+102095,rural,3,0.09,45,dim,rainy,True,False,afternoon,True,False,1,0.12
+102096,highway,2,0.37,45,night,rainy,True,False,  evening  ,True,True,0,0.46
+102097,highway,4,0.37,70,night,foggy,True,False,morning,False,True,1,0.62
+102098,rural,2,0.79,70,  dim  ,foggy,True,True,  afternoon  ,True,True,1,0.58
+102099,  highway  ,1,0.41,35,daylight,clear,True,False,morning,True,True,1,0.08
+102100,rural,2,0.67,60,night,foggy,False,False,afternoon,True,False,1,0.66
+102101,urban,2,0.22,45,dim,clear,True,False,  afternoon  ,False,False,2,0.07
+102102,rural,3,0.6,25,dim,rainy,False,True,afternoon,True,True,0,0.27
+102103,urban,1,0.86,35,daylight,clear,True,True,evening,False,True,2,0.27
+102104,highway,4,0.41,45,night,foggy,True,True,morning,True,False,1,0.4
+102105,highway,4,0.01,45,night,clear,True,False,evening,False,False,2,0.19
+102106,urban,4,0.44,70,night,clear,True,False,  evening  ,True,False,2,0.49
+102107,highway,1,0.97,70,daylight,foggy,True,False,morning,False,False,3,0.71
+102108,rural,2,0.26,25,daylight,clear,False,False,afternoon,True,False,1,0.12
+102109,urban,4,0.22,45,dim,rainy,True,True,evening,False,False,2,0.23
+102110,highway,1,0.36,25,daylight,foggy,True,False,evening,False,False,0,0.19
+102111,urban,4,0.06,45,night,foggy,False,False,  afternoon  ,False,True,2,0.34
+102112,rural,1,0.68,45,night,clear,True,False,evening,False,True,0,0.32
+102113,urban,4,0.81,60,  dim  ,foggy,True,False,evening,True,False,1,0.57
+102114,highway,4,0.06,35,dim,rainy,True,True,evening,True,True,1,0.18
+102115,  highway  ,2,0.62,45,dim,foggy,True,False,morning,False,True,0,0.29
+102116,urban,2,0.56,25,  night  ,foggy,False,False,evening,False,False,0,0.48
+102117,highway,1,0.23,60,dim,foggy,False,True,morning,False,False,2,0.3
+102118,  urban  ,4,0.36,25,dim,foggy,False,True,evening,True,False,1,0.17
+102119,urban,4,0.35,35,dim,  foggy  ,True,False,evening,True,True,0,0.34
+102120,urban,4,0.12,70,dim,rainy,True,False,afternoon,True,False,1,0.27
+102121,highway,1,0.65,25,night,clear,True,True,morning,False,False,2,0.25
+102122,urban,3,0.39,35,night,foggy,False,False,afternoon,False,False,2,0.29
+102123,highway,1,0.19,25,dim,foggy,False,True,morning,True,False,0,0.11
+102124,rural,1,0.33,45,dim,foggy,False,False,  morning  ,True,False,0,0.18
+102125,highway,1,0.22,35,night,  clear  ,False,False,morning,False,True,1,0.33
+102126,urban,1,0.41,60,dim,rainy,True,False,morning,True,True,0,0.39
+102127,highway,1,0.22,45,daylight,rainy,False,True,evening,True,True,1,0.13
+102128,urban,3,0.53,45,daylight,foggy,False,False,afternoon,True,True,2,0.36
+102129,highway,1,0.11,45,night,foggy,True,True,evening,True,False,1,0.31
+102130,highway,2,0.4,35,daylight,foggy,True,True,morning,False,False,2,0.27
+102131,urban,4,0.66,70,night,clear,True,True,afternoon,True,False,1,0.54
+102132,urban,3,0.19,25,daylight,clear,True,False,evening,True,True,1,0.13
+102133,highway,2,0.23,25,daylight,foggy,False,False,evening,False,True,1,0.17
+102134,highway,2,0.37,60,  dim  ,  clear  ,True,True,evening,False,True,1,0.34
+102135,rural,3,0.65,35,daylight,clear,False,True,afternoon,False,True,1,0.26
+102136,urban,3,0.4,25,dim,foggy,True,True,  morning  ,False,True,2,0.22
+102137,rural,4,0.19,25,dim,foggy,True,True,evening,False,True,2,0.13
+102138,rural,2,0.6,45,dim,foggy,False,False,evening,True,False,1,0.24
+102139,  urban  ,2,0.32,70,dim,clear,False,False,afternoon,False,True,1,0.32
+102140,urban,3,0.0,70,daylight,foggy,False,True,afternoon,True,True,7,0.1
+102141,rural,2,0.15,35,  dim  ,clear,True,False,afternoon,True,True,1,0.05
+102142,rural,2,0.27,25,daylight,rainy,False,False,afternoon,True,False,1,0.18
+102143,rural,3,0.7,35,  night  ,  foggy  ,False,False,evening,False,False,2,0.53
+102144,rural,4,0.64,70,daylight,clear,False,True,  evening  ,True,False,2,0.39
+102145,urban,3,0.17,35,night,  foggy  ,True,True,evening,True,False,2,0.2
+102146,highway,4,0.46,35,daylight,foggy,False,True,evening,False,True,0,0.26
+102147,  highway  ,3,0.53,70,dim,clear,False,False,afternoon,True,False,1,0.34
+102148,rural,4,0.34,70,  dim  ,clear,False,True,afternoon,False,False,0,0.23
+102149,rural,3,0.58,60,  night  ,clear,False,True,evening,True,False,1,0.68
+102150,rural,2,0.46,45,daylight,  clear  ,False,True,afternoon,False,True,0,0.14
+102151,urban,1,0.61,70,night,foggy,False,False,morning,True,True,0,0.66
+102152,urban,4,0.51,25,dim,  rainy  ,False,False,morning,False,True,1,0.22
+102153,rural,1,0.7,45,dim,clear,True,False,morning,False,True,1,0.3
+102154,rural,3,0.7,35,dim,clear,True,True,morning,False,True,1,0.25
+102155,urban,3,0.96,60,dim,clear,True,True,afternoon,False,False,2,0.37
+102156,urban,3,0.67,70,daylight,clear,False,True,afternoon,False,False,0,0.4
+102157,  rural  ,1,0.75,25,daylight,rainy,False,False,  morning  ,True,False,2,0.38
+102158,urban,4,0.74,25,  daylight  ,foggy,True,False,afternoon,True,False,0,0.2
+102159,highway,2,0.26,25,night,clear,False,True,evening,False,False,2,0.28
+102160,urban,2,0.6,25,dim,foggy,False,False,evening,True,False,1,0.39
+102161,highway,1,0.09,35,night,clear,True,False,morning,True,True,1,0.23
+102162,  urban  ,2,0.67,60,daylight,rainy,True,True,  afternoon  ,False,True,3,0.61
+102163,highway,3,0.06,35,night,  clear  ,False,True,morning,True,True,2,0.23
+102164,  highway  ,1,0.17,70,daylight,foggy,False,True,afternoon,False,False,2,0.48
+102165,  highway  ,3,0.7,70,dim,rainy,False,True,  evening  ,False,False,3,0.62
+102166,highway,3,0.74,60,night,foggy,True,False,  morning  ,True,False,0,0.75
+102167,urban,3,0.54,60,night,  foggy  ,True,True,morning,False,False,1,0.45
+102168,  rural  ,3,0.66,70,daylight,foggy,True,False,afternoon,True,True,2,0.51
+102169,highway,3,0.66,35,daylight,rainy,False,False,morning,False,True,1,0.24
+102170,urban,4,0.31,45,dim,  foggy  ,True,False,afternoon,True,False,0,0.28
+102171,urban,4,0.36,25,  daylight  ,foggy,False,False,afternoon,False,False,1,0.21
+102172,highway,4,0.01,60,daylight,  rainy  ,False,True,evening,False,True,2,0.32
+102173,highway,4,0.25,70,daylight,rainy,True,True,morning,False,False,1,0.36
+102174,urban,1,0.24,60,daylight,foggy,True,True,afternoon,False,False,2,0.36
+102175,highway,3,0.68,35,night,rainy,False,True,afternoon,False,False,0,0.47
+102176,rural,4,0.16,60,daylight,clear,True,False,afternoon,False,False,2,0.23
+102177,highway,2,0.8,45,night,rainy,False,True,afternoon,True,False,2,0.59
+102178,highway,1,0.39,70,night,foggy,True,True,morning,False,False,1,0.62
+102179,urban,4,0.56,35,night,foggy,True,True,morning,True,False,2,0.46
+102180,rural,4,0.4,35,daylight,clear,False,False,evening,True,False,1,0.17
+102181,highway,1,0.16,70,  dim  ,rainy,True,True,evening,True,False,0,0.36
+102182,rural,2,0.17,25,night,clear,True,True,morning,False,False,1,0.28
+102183,highway,3,0.14,45,daylight,foggy,True,False,morning,True,False,1,0.06
+102184,highway,2,0.75,25,night,foggy,False,False,afternoon,False,False,3,0.64
+102185,rural,4,0.21,45,daylight,clear,True,True,afternoon,True,True,2,0.07
+102186,  urban  ,1,0.61,35,daylight,clear,False,False,afternoon,True,True,0,0.21
+102187,rural,2,0.15,70,daylight,foggy,False,False,morning,False,False,0,0.39
+102188,highway,4,0.22,35,night,rainy,False,True,morning,False,True,0,0.2
+102189,highway,2,0.41,25,daylight,foggy,False,False,  evening  ,True,True,1,0.22
+102190,rural,2,0.34,70,dim,rainy,True,False,afternoon,True,False,1,0.39
+102191,rural,2,0.64,70,dim,rainy,False,False,afternoon,False,False,3,0.57
+102192,rural,2,0.75,60,  daylight  ,clear,False,False,evening,False,False,2,0.41
+102193,rural,1,0.92,25,dim,clear,True,True,evening,False,True,1,0.35
+102194,rural,1,0.45,60,daylight,foggy,False,False,afternoon,True,True,2,0.37
+102195,highway,4,0.55,35,dim,clear,True,True,afternoon,False,True,1,0.18
+102196,rural,4,0.26,70,dim,foggy,True,False,afternoon,False,True,2,0.4
+102197,rural,1,0.39,25,daylight,clear,False,True,morning,False,True,1,0.21
+102198,urban,3,0.49,35,daylight,rainy,True,True,afternoon,False,False,0,0.29
+102199,highway,4,0.03,45,daylight,foggy,True,False,afternoon,False,False,0,0.17
+102200,urban,4,0.47,45,night,foggy,False,True,morning,False,False,0,0.47
+102201,highway,4,0.62,35,daylight,rainy,False,False,evening,True,False,3,0.42
+102202,urban,3,0.58,45,night,foggy,True,False,afternoon,False,True,0,0.39
+102203,rural,1,0.1,45,night,rainy,True,False,morning,False,False,1,0.26
+102204,highway,1,0.55,45,daylight,clear,False,True,evening,False,True,2,0.21
+102205,highway,2,0.11,70,daylight,  foggy  ,True,True,  afternoon  ,True,True,0,0.36
+102206,rural,4,0.99,35,dim,clear,False,True,afternoon,False,False,0,0.33
+102207,highway,1,0.95,35,dim,clear,False,True,morning,False,False,1,0.34
+102208,urban,2,0.92,35,  daylight  ,foggy,True,True,evening,False,True,2,0.26
+102209,rural,2,0.73,45,daylight,foggy,False,True,evening,True,False,2,0.31
+102210,highway,2,0.34,70,dim,clear,False,True,evening,True,True,0,0.38
+102211,rural,4,0.35,60,dim,clear,True,True,morning,False,True,1,0.25
+102212,highway,4,0.31,70,daylight,rainy,False,False,evening,False,False,0,0.45
+102213,rural,3,0.55,60,dim,foggy,True,False,evening,True,True,0,0.39
+102214,urban,1,0.44,35,dim,  clear  ,True,True,afternoon,False,True,2,0.16
+102215,highway,2,0.75,45,night,foggy,True,False,afternoon,True,False,3,0.73
+102216,rural,4,0.04,60,dim,rainy,True,True,morning,False,True,1,0.34
+102217,rural,4,0.98,70,daylight,foggy,True,True,morning,True,True,3,0.72
+102218,rural,4,0.32,45,dim,foggy,True,False,  evening  ,True,False,1,0.23
+102219,rural,1,0.23,60,dim,foggy,True,True,evening,True,True,1,0.29
+102220,urban,3,0.05,45,dim,foggy,True,True,evening,False,False,2,0.18
+102221,rural,3,0.86,45,night,clear,True,False,afternoon,True,False,0,0.49
+102222,highway,3,0.95,35,dim,rainy,True,True,afternoon,False,False,2,0.37
+102223,rural,3,0.73,45,dim,foggy,False,True,evening,True,True,3,0.44
+102224,rural,3,0.03,25,daylight,clear,False,True,afternoon,False,True,1,0.07
+102225,rural,3,0.17,45,dim,rainy,True,False,evening,True,True,2,0.19
+102226,rural,2,0.16,70,dim,clear,False,True,afternoon,False,True,2,0.21
+102227,highway,2,0.43,35,night,foggy,False,True,afternoon,True,True,1,0.52
+102228,highway,2,0.06,60,dim,clear,True,True,  afternoon  ,True,False,1,0.23
+102229,rural,4,0.53,70,  night  ,rainy,True,True,evening,True,False,1,0.67
+102230,rural,4,0.82,25,dim,foggy,True,False,evening,False,True,1,0.35
+102231,highway,3,0.24,70,daylight,foggy,False,False,  morning  ,False,True,1,0.4
+102232,highway,1,0.02,45,night,foggy,False,False,afternoon,False,False,0,0.39
+102233,urban,3,0.82,35,night,foggy,False,True,morning,True,False,1,0.62
+102234,rural,1,0.63,60,night,foggy,True,False,evening,False,True,1,0.74
+102235,urban,3,0.37,70,daylight,clear,True,True,morning,False,False,1,0.27
+102236,highway,3,0.47,25,night,rainy,True,False,evening,True,True,1,0.44
+102237,highway,1,0.7,45,daylight,foggy,True,True,morning,False,False,2,0.3
+102238,highway,4,0.03,45,night,rainy,False,True,morning,True,True,1,0.26
+102239,highway,1,0.81,45,daylight,foggy,False,True,evening,False,False,3,0.5
+102240,highway,3,0.61,45,night,foggy,True,False,afternoon,True,False,3,0.56
+102241,rural,4,0.62,70,daylight,foggy,True,False,morning,True,True,1,0.45
+102242,  highway  ,4,0.21,60,  night  ,clear,True,False,evening,False,False,1,0.56
+102243,  highway  ,3,0.57,25,dim,rainy,False,False,morning,False,True,1,0.37
+102244,urban,4,0.35,25,night,clear,False,True,morning,True,True,1,0.28
+102245,rural,3,0.12,45,daylight,  rainy  ,False,True,evening,True,False,0,0.11
+102246,rural,1,0.12,35,night,foggy,False,True,morning,True,False,0,0.26
+102247,highway,1,0.23,60,night,clear,True,True,afternoon,False,True,2,0.59
+102248,urban,1,0.98,25,  daylight  ,clear,True,False,afternoon,False,True,1,0.34
+102249,urban,4,0.37,70,night,foggy,False,True,evening,False,True,1,0.61
+102250,urban,3,0.43,25,daylight,clear,True,True,afternoon,True,False,1,0.14
+102251,highway,1,0.63,60,daylight,rainy,True,False,  evening  ,True,True,2,0.49
+102252,urban,4,0.6,60,daylight,rainy,True,True,evening,True,False,2,0.57
+102253,  urban  ,3,0.62,25,dim,rainy,False,False,afternoon,True,False,0,0.26
+102254,rural,4,0.51,45,night,foggy,False,False,evening,True,True,0,0.48
+102255,rural,2,0.87,70,daylight,clear,False,True,evening,True,False,2,0.41
+102256,highway,3,0.81,60,night,foggy,False,True,afternoon,True,False,2,0.73
+102257,highway,2,0.22,35,night,clear,False,True,evening,True,False,1,0.25
+102258,urban,2,0.73,70,dim,clear,False,False,afternoon,False,False,0,0.35
+102259,rural,1,0.22,45,dim,foggy,True,False,afternoon,True,True,2,0.18
+102260,highway,2,0.79,70,night,foggy,False,True,evening,False,False,1,0.77
+102261,highway,2,0.37,60,night,clear,False,False,evening,False,False,0,0.43
+102262,highway,1,0.54,45,daylight,foggy,True,True,morning,False,False,2,0.29
+102263,rural,3,0.78,45,night,foggy,False,True,  evening  ,True,False,2,0.57
+102264,urban,1,0.57,35,daylight,foggy,True,True,evening,True,False,3,0.43
+102265,rural,4,0.39,35,daylight,foggy,True,True,evening,False,True,1,0.29
+102266,rural,1,0.23,35,night,clear,False,False,afternoon,False,True,1,0.33
+102267,highway,3,0.18,60,daylight,clear,True,False,  morning  ,False,True,2,0.28
+102268,highway,4,0.44,35,daylight,foggy,True,False,morning,False,True,1,0.24
+102269,highway,1,0.7,35,daylight,foggy,True,True,morning,True,False,0,0.4
+102270,highway,2,0.24,35,dim,clear,True,True,morning,False,True,0,0.09
+102271,highway,2,0.69,45,  dim  ,clear,False,True,evening,True,True,1,0.25
+102272,urban,1,0.56,45,daylight,clear,False,False,morning,False,True,1,0.19
+102273,urban,2,0.33,60,dim,clear,True,False,evening,False,False,1,0.27
+102274,highway,2,0.25,45,night,clear,True,True,afternoon,False,True,0,0.24
+102275,rural,4,0.05,35,daylight,rainy,False,True,morning,True,True,1,0.13
+102276,urban,3,0.67,35,night,rainy,True,False,  morning  ,False,False,2,0.49
+102277,highway,4,0.21,60,dim,foggy,True,False,afternoon,False,True,1,0.37
+102278,urban,2,0.36,35,night,foggy,False,True,morning,False,False,2,0.36
+102279,urban,1,0.11,25,night,clear,False,False,morning,True,False,2,0.26
+102280,  rural  ,4,0.93,25,night,clear,True,False,morning,False,False,4,0.58
+102281,highway,4,0.34,45,daylight,  foggy  ,False,False,afternoon,True,True,1,0.15
+102282,urban,2,0.06,35,night,rainy,True,True,morning,True,True,0,0.28
+102283,highway,4,0.12,25,night,rainy,False,True,morning,False,True,2,0.33
+102284,highway,2,0.18,25,night,  rainy  ,True,True,morning,False,True,0,0.28
+102285,rural,1,0.77,60,night,rainy,False,True,evening,False,False,3,0.82
+102286,highway,1,0.78,25,night,foggy,False,False,morning,True,False,1,0.55
+102287,rural,2,0.46,70,daylight,rainy,False,False,evening,True,True,2,0.43
+102288,rural,2,1.0,70,  night  ,rainy,True,False,afternoon,True,False,1,0.65
+102289,urban,2,0.95,60,daylight,  foggy  ,False,True,evening,True,True,1,0.5
+102290,urban,3,0.2,35,  night  ,rainy,False,False,  afternoon  ,True,True,2,0.28
+102291,highway,4,0.16,35,dim,rainy,False,False,evening,False,False,0,0.14
+102292,rural,3,0.72,35,night,clear,True,True,afternoon,True,True,2,0.43
+102293,highway,2,0.97,45,night,foggy,True,True,morning,False,False,2,0.6
+102294,rural,3,0.01,35,  dim  ,rainy,True,True,afternoon,False,False,1,0.15
+102295,  highway  ,1,0.56,35,dim,rainy,False,False,morning,False,True,1,0.29
+102296,  urban  ,1,0.51,25,  daylight  ,rainy,True,True,afternoon,True,False,2,0.19
+102297,rural,4,0.55,70,dim,foggy,False,False,morning,False,False,2,0.54
+102298,rural,4,0.71,60,night,foggy,False,False,evening,True,True,1,0.72
+102299,rural,3,0.59,45,  dim  ,rainy,False,False,morning,False,False,0,0.32
+102300,rural,3,0.1,60,dim,rainy,False,True,evening,False,True,1,0.4
+102301,rural,1,0.56,25,night,clear,False,False,morning,False,False,1,0.51
+102302,highway,2,0.18,45,night,clear,True,True,afternoon,True,False,2,0.28
+102303,rural,1,0.79,35,night,clear,True,False,morning,False,True,2,0.45
+102304,urban,3,0.29,60,  daylight  ,foggy,True,False,evening,True,True,1,0.38
+102305,highway,3,0.47,45,dim,  rainy  ,True,False,  evening  ,False,False,1,0.21
+102306,rural,2,0.14,60,daylight,  rainy  ,True,False,evening,False,False,0,0.27
+102307,highway,2,0.26,25,night,clear,False,False,evening,True,False,2,0.32
+102308,urban,4,0.7,70,dim,foggy,True,True,morning,True,False,0,0.53
+102309,highway,4,0.96,35,dim,foggy,True,True,morning,False,False,2,0.4
+102310,urban,1,0.32,70,daylight,foggy,False,True,afternoon,False,True,2,0.36
+102311,  rural  ,3,0.45,70,dim,rainy,True,False,evening,True,False,2,0.46
+102312,urban,3,0.6,70,dim,clear,False,True,evening,True,True,2,0.37
+102313,  highway  ,4,0.19,25,  dim  ,rainy,False,True,morning,False,False,1,0.14
+102314,rural,4,0.39,70,daylight,clear,True,False,morning,True,True,1,0.38
+102315,highway,2,0.54,60,night,clear,False,False,morning,False,True,1,0.53
+102316,rural,3,0.4,35,daylight,foggy,True,False,afternoon,False,False,1,0.3
+102317,highway,3,0.55,70,dim,clear,False,False,morning,False,True,2,0.39
+102318,  urban  ,4,0.23,70,dim,clear,True,True,evening,False,False,0,0.16
+102319,highway,4,0.62,45,night,foggy,True,True,  morning  ,False,False,2,0.4
+102320,urban,1,0.03,35,  night  ,foggy,False,False,morning,False,True,0,0.35
+102321,urban,4,0.0,35,night,rainy,True,True,afternoon,True,True,2,0.36
+102322,urban,1,0.54,45,dim,rainy,True,True,evening,False,True,2,0.25
+102323,highway,1,0.46,45,dim,foggy,True,True,morning,False,False,1,0.16
+102324,rural,3,0.24,60,daylight,clear,True,False,morning,False,False,1,0.27
+102325,urban,3,0.63,25,daylight,clear,False,True,morning,True,True,2,0.19
+102326,urban,4,0.08,45,night,  clear  ,True,False,afternoon,False,False,2,0.27
+102327,highway,2,0.4,45,daylight,foggy,True,True,evening,False,True,1,0.25
+102328,  highway  ,1,0.43,45,dim,clear,True,True,morning,False,True,1,0.11
+102329,highway,2,0.4,70,daylight,  foggy  ,False,False,morning,True,True,1,0.48
+102330,urban,3,0.56,70,daylight,foggy,False,False,afternoon,False,False,0,0.54
+102331,urban,1,0.43,25,daylight,rainy,True,True,morning,True,True,1,0.26
+102332,urban,2,0.34,60,dim,  rainy  ,False,True,afternoon,True,False,0,0.35
+102333,  urban  ,1,0.56,45,night,foggy,False,False,evening,True,True,1,0.45
+102334,urban,1,0.5,45,daylight,foggy,True,False,morning,False,False,2,0.24
+102335,rural,4,0.67,60,daylight,foggy,False,True,afternoon,True,False,1,0.56
+102336,urban,2,0.54,45,dim,foggy,False,True,evening,True,True,1,0.28
+102337,highway,1,0.85,25,dim,foggy,False,False,morning,True,False,2,0.33
+102338,urban,1,0.97,60,dim,clear,False,True,afternoon,True,True,2,0.5
+102339,rural,2,0.31,45,night,clear,False,True,evening,True,False,2,0.27
+102340,urban,3,0.41,25,daylight,rainy,True,True,morning,True,True,1,0.17
+102341,highway,4,0.81,45,  daylight  ,rainy,True,True,morning,True,False,2,0.4
+102342,highway,4,0.79,25,daylight,rainy,False,True,evening,False,False,0,0.33
+102343,highway,2,0.28,25,daylight,foggy,False,False,morning,True,False,0,0.22
+102344,rural,3,0.39,70,night,clear,True,True,morning,True,True,0,0.42
+102345,rural,4,0.63,35,dim,rainy,False,True,evening,False,True,2,0.31
+102346,urban,3,0.67,35,daylight,rainy,True,True,afternoon,False,False,1,0.28
+102347,highway,1,0.57,70,daylight,rainy,True,True,afternoon,True,True,3,0.49
+102348,highway,2,0.18,70,daylight,rainy,False,False,evening,True,True,0,0.51
+102349,highway,1,0.4,45,night,rainy,True,False,evening,False,True,1,0.37
+102350,  highway  ,2,0.9,60,night,rainy,False,True,morning,True,False,2,0.86
+102351,highway,4,0.72,25,night,clear,True,True,morning,False,False,1,0.43
+102352,rural,3,0.9,70,dim,  clear  ,False,False,evening,True,True,0,0.48
+102353,rural,4,0.14,35,night,foggy,True,False,  evening  ,False,False,2,0.33
+102354,urban,2,0.7,70,daylight,clear,True,True,morning,True,False,3,0.59
+102355,  rural  ,1,0.67,60,daylight,foggy,False,False,  evening  ,True,False,2,0.49
+102356,rural,3,0.3,35,  night  ,clear,True,False,morning,False,True,2,0.34
+102357,highway,2,0.96,35,dim,foggy,True,True,afternoon,False,True,1,0.41
+102358,rural,1,0.59,60,night,rainy,False,False,evening,True,False,2,0.64
+102359,rural,4,0.63,35,daylight,foggy,True,True,evening,True,True,0,0.23
+102360,rural,1,0.7,60,daylight,clear,False,True,morning,True,True,1,0.42
+102361,highway,1,0.47,70,daylight,foggy,False,False,  evening  ,False,True,0,0.46
+102362,highway,1,0.02,35,night,rainy,True,False,afternoon,True,False,2,0.38
+102363,highway,3,0.65,60,dim,foggy,True,True,afternoon,True,False,0,0.53
+102364,rural,4,0.06,60,daylight,foggy,True,True,afternoon,False,True,1,0.27
+102365,  urban  ,3,0.72,25,dim,foggy,False,True,afternoon,False,False,2,0.31
+102366,urban,1,0.56,70,night,clear,True,True,evening,True,False,2,0.54
+102367,urban,3,0.01,35,  daylight  ,  clear  ,False,False,afternoon,True,True,1,0.05
+102368,highway,4,0.37,70,night,rainy,True,False,evening,False,False,1,0.65
+102369,  highway  ,1,0.91,35,night,  clear  ,True,False,afternoon,True,False,3,0.61
+102370,urban,3,0.54,25,night,foggy,False,True,afternoon,False,False,2,0.55
+102371,highway,2,0.6,60,daylight,clear,False,False,morning,False,True,1,0.45
+102372,urban,3,0.67,70,night,foggy,True,True,evening,True,True,1,0.6
+102373,highway,1,0.1,70,dim,foggy,True,False,evening,False,False,1,0.34
+102374,highway,1,0.85,25,night,foggy,False,False,evening,True,True,2,0.51
+102375,highway,3,0.86,70,dim,clear,False,True,afternoon,True,False,1,0.53
+102376,urban,4,0.35,45,night,clear,False,True,evening,False,False,2,0.38
+102377,highway,2,0.47,60,night,clear,False,True,morning,False,True,0,0.48
+102378,  rural  ,2,0.77,35,dim,rainy,True,False,morning,True,False,3,0.37
+102379,rural,2,0.05,70,dim,  foggy  ,False,False,morning,True,False,0,0.29
+102380,highway,3,0.33,35,daylight,clear,True,False,afternoon,False,True,1,0.06
+102381,rural,3,0.17,70,daylight,clear,True,False,evening,True,True,0,0.3
+102382,highway,2,0.29,70,daylight,  foggy  ,False,True,morning,True,False,0,0.2
+102383,rural,4,0.03,60,daylight,rainy,False,False,evening,False,False,2,0.24
+102384,rural,2,0.73,60,dim,foggy,False,False,evening,False,True,1,0.54
+102385,rural,1,0.77,45,dim,rainy,True,False,evening,False,True,0,0.28
+102386,highway,1,0.83,45,dim,foggy,True,True,afternoon,False,True,0,0.39
+102387,urban,4,0.07,70,dim,clear,False,True,afternoon,False,True,1,0.28
+102388,urban,4,0.36,25,night,foggy,True,True,morning,False,True,2,0.4
+102389,highway,4,0.02,35,night,clear,True,False,morning,True,False,2,0.18
+102390,highway,1,0.77,70,dim,clear,False,False,  morning  ,True,True,2,0.41
+102391,  highway  ,4,0.27,25,  night  ,rainy,True,True,  afternoon  ,True,True,2,0.36
+102392,rural,4,0.67,70,daylight,foggy,True,False,evening,True,True,1,0.56
+102393,rural,1,0.55,25,dim,clear,False,False,evening,False,True,1,0.18
+102394,urban,2,0.57,35,dim,rainy,False,True,afternoon,True,True,1,0.24
+102395,urban,3,0.75,60,daylight,foggy,True,False,afternoon,True,False,1,0.45
+102396,rural,2,0.24,60,dim,rainy,True,True,  morning  ,True,False,1,0.43
+102397,urban,3,0.67,25,  dim  ,rainy,True,False,evening,True,False,1,0.29
+102398,urban,2,0.43,25,daylight,foggy,False,False,afternoon,False,True,2,0.15
+102399,rural,1,0.72,35,night,clear,False,True,afternoon,True,True,0,0.37
+102400,highway,1,0.68,70,daylight,clear,False,True,evening,True,True,1,0.42
+102401,urban,1,0.28,25,dim,rainy,True,True,morning,True,False,1,0.16
+102402,rural,4,0.34,45,dim,foggy,True,False,afternoon,False,True,0,0.18
+102403,  urban  ,1,0.76,35,daylight,  rainy  ,False,True,afternoon,True,False,0,0.4
+102404,rural,1,0.24,45,dim,rainy,True,False,afternoon,True,False,2,0.24
+102405,  highway  ,2,0.09,35,daylight,  foggy  ,False,True,morning,False,True,1,0.18
+102406,highway,2,0.7,45,daylight,clear,False,True,afternoon,False,True,1,0.23
+102407,  highway  ,1,0.4,35,dim,rainy,True,False,  afternoon  ,True,False,1,0.13
+102408,rural,2,0.19,70,dim,clear,True,True,evening,True,True,1,0.26
+102409,rural,3,0.55,35,daylight,foggy,False,True,evening,False,False,3,0.34
+102410,urban,2,0.04,60,dim,clear,True,False,afternoon,False,True,4,0.1
+102411,highway,3,0.28,45,daylight,  foggy  ,False,True,afternoon,False,True,0,0.27
+102412,highway,1,0.63,70,night,rainy,True,False,  morning  ,False,False,2,0.63
+102413,highway,2,0.85,25,daylight,rainy,False,True,evening,False,False,0,0.4
+102414,rural,2,0.19,35,night,foggy,False,True,evening,False,False,2,0.2
+102415,rural,4,0.55,25,night,foggy,False,False,morning,False,False,0,0.38
+102416,highway,1,0.29,70,dim,rainy,False,False,  morning  ,True,False,1,0.33
+102417,highway,3,0.04,35,  daylight  ,clear,True,True,evening,False,False,2,0.05
+102418,urban,2,0.77,60,daylight,foggy,False,False,evening,False,False,0,0.5
+102419,  urban  ,3,0.23,35,daylight,foggy,True,True,morning,False,False,1,0.11
+102420,urban,4,0.34,25,night,foggy,True,False,afternoon,True,False,2,0.36
+102421,rural,2,0.46,35,dim,clear,True,True,evening,True,True,1,0.19
+102422,  urban  ,3,0.99,70,daylight,foggy,False,True,evening,True,False,2,0.68
+102423,highway,1,0.03,25,night,clear,True,True,  evening  ,True,True,2,0.19
+102424,rural,3,0.61,25,daylight,  clear  ,True,False,evening,True,False,1,0.19
+102425,highway,2,0.63,70,dim,clear,False,True,evening,True,True,1,0.4
+102426,urban,3,0.59,60,dim,foggy,False,True,evening,False,False,3,0.6
+102427,rural,1,0.86,60,dim,rainy,True,True,afternoon,False,True,2,0.48
+102428,rural,1,0.84,25,daylight,foggy,False,False,evening,True,False,1,0.31
+102429,highway,2,0.63,70,night,clear,False,True,morning,True,True,0,0.64
+102430,highway,2,0.65,70,daylight,rainy,True,False,evening,True,False,3,0.56
+102431,urban,3,0.03,45,daylight,foggy,False,True,morning,False,True,1,0.05
+102432,urban,4,0.68,45,daylight,rainy,True,False,afternoon,False,False,2,0.31
+102433,highway,2,0.15,35,night,rainy,False,False,morning,True,True,1,0.41
+102434,  highway  ,2,0.39,70,  night  ,foggy,True,False,afternoon,False,False,1,0.63
+102435,urban,1,0.32,35,night,rainy,False,False,morning,False,False,1,0.3
+102436,urban,4,0.32,60,dim,foggy,True,True,afternoon,True,True,1,0.28
+102437,rural,3,0.62,25,daylight,clear,False,True,evening,True,False,1,0.12
+102438,rural,4,0.13,25,dim,clear,False,True,afternoon,False,True,1,0.01
+102439,urban,4,0.32,25,dim,foggy,True,False,evening,True,True,1,0.22
+102440,urban,4,0.55,70,daylight,foggy,True,True,morning,False,True,3,0.61
+102441,urban,3,0.09,45,dim,foggy,False,False,  evening  ,True,True,1,0.17
+102442,highway,1,0.6,45,night,  foggy  ,False,True,morning,True,False,0,0.48
+102443,urban,3,0.88,60,daylight,foggy,False,True,  afternoon  ,False,False,2,0.57
+102444,urban,2,0.39,70,daylight,  clear  ,True,True,evening,True,True,2,0.37
+102445,highway,4,0.65,45,daylight,foggy,False,True,morning,True,True,1,0.35
+102446,rural,2,0.01,45,dim,clear,True,False,morning,True,False,1,0.05
+102447,rural,3,0.35,35,  night  ,foggy,True,True,morning,False,False,1,0.2
+102448,urban,3,0.08,60,daylight,clear,False,True,afternoon,False,False,1,0.27
+102449,urban,3,0.73,25,dim,clear,False,False,morning,False,False,1,0.25
+102450,rural,2,0.13,25,night,foggy,False,True,afternoon,True,False,1,0.31
+102451,highway,1,0.59,70,dim,foggy,True,False,morning,True,False,1,0.39
+102452,highway,3,0.91,60,night,foggy,True,False,afternoon,False,True,2,0.83
+102453,highway,1,0.34,35,dim,rainy,True,False,morning,True,False,2,0.21
+102454,urban,4,0.43,60,dim,clear,True,False,morning,True,True,1,0.31
+102455,rural,2,0.4,35,dim,foggy,False,False,afternoon,True,False,1,0.28
+102456,rural,2,0.77,45,night,foggy,False,False,afternoon,False,True,0,0.48
+102457,highway,2,0.75,70,night,clear,False,False,morning,False,False,3,0.75
+102458,rural,3,0.01,70,daylight,foggy,True,False,evening,True,False,2,0.24
+102459,highway,2,0.28,60,night,clear,True,False,afternoon,False,True,2,0.51
+102460,urban,2,0.9,25,daylight,rainy,False,False,afternoon,True,False,1,0.38
+102461,urban,3,0.65,70,night,foggy,False,False,morning,False,False,1,0.75
+102462,rural,2,0.37,25,daylight,rainy,False,False,afternoon,False,True,1,0.25
+102463,rural,2,0.25,45,dim,clear,True,False,afternoon,False,True,2,0.06
+102464,rural,1,0.59,70,  daylight  ,clear,True,True,evening,False,False,2,0.4
+102465,urban,4,0.14,60,dim,foggy,True,False,morning,True,False,0,0.33
+102466,highway,2,0.85,35,daylight,clear,True,False,evening,True,True,2,0.17
+102467,highway,1,0.54,25,daylight,rainy,False,False,morning,False,True,0,0.32
+102468,rural,4,0.87,35,dim,  foggy  ,False,True,evening,True,False,2,0.3
+102469,urban,4,0.81,60,dim,rainy,True,True,morning,False,True,0,0.58
+102470,urban,4,0.63,70,dim,foggy,True,True,afternoon,True,False,2,0.47
+102471,urban,3,0.62,25,daylight,rainy,False,False,afternoon,False,False,1,0.31
+102472,highway,2,0.78,45,night,foggy,False,True,morning,False,False,2,0.6
+102473,urban,2,0.24,45,dim,foggy,True,False,morning,False,False,1,0.21
+102474,urban,3,0.36,60,night,foggy,True,False,afternoon,False,True,2,0.68
+102475,rural,4,0.18,60,dim,foggy,True,False,evening,False,False,0,0.35
+102476,rural,1,0.41,70,daylight,foggy,True,True,evening,True,False,2,0.41
+102477,highway,2,0.28,60,dim,clear,False,False,morning,True,True,1,0.2
+102478,urban,1,0.83,25,daylight,rainy,True,True,morning,False,False,3,0.57
+102479,highway,4,0.65,35,dim,foggy,True,False,evening,True,False,0,0.41
+102480,highway,3,0.95,35,dim,rainy,False,True,afternoon,False,True,0,0.32
+102481,rural,1,0.86,45,daylight,foggy,False,False,afternoon,True,True,2,0.38
+102482,  rural  ,2,0.33,35,daylight,foggy,True,False,evening,True,True,0,0.11
+102483,highway,2,0.26,45,daylight,rainy,False,True,afternoon,True,False,0,0.21
+102484,urban,4,0.54,35,dim,foggy,False,False,evening,True,True,1,0.28
+102485,urban,2,0.8,70,night,clear,True,False,morning,True,True,1,0.61
+102486,rural,4,0.25,70,daylight,foggy,True,True,evening,True,False,2,0.4
+102487,rural,2,0.89,35,daylight,foggy,True,True,  evening  ,False,True,2,0.28
+102488,highway,3,0.13,45,dim,clear,True,False,morning,True,False,0,0.05
+102489,rural,3,0.32,60,dim,clear,True,False,  evening  ,False,False,0,0.34
+102490,rural,1,0.14,45,night,clear,True,True,evening,True,False,1,0.25
+102491,urban,2,0.73,25,  night  ,foggy,True,False,morning,False,False,2,0.54
+102492,rural,2,0.38,60,  dim  ,clear,True,False,  morning  ,False,True,1,0.2
+102493,urban,4,0.63,25,dim,clear,False,True,morning,True,False,1,0.21
+102494,highway,1,0.99,70,  night  ,foggy,False,False,morning,False,False,4,0.8
+102495,  rural  ,1,0.89,60,daylight,clear,True,False,evening,True,False,0,0.45
+102496,  highway  ,4,0.22,25,daylight,rainy,True,False,morning,False,True,1,0.11
+102497,urban,3,0.69,35,night,clear,False,True,evening,False,True,0,0.53
+102498,highway,3,0.98,25,night,clear,True,False,afternoon,True,False,3,0.53
+102499,urban,2,0.58,45,night,foggy,True,False,afternoon,False,False,1,0.38

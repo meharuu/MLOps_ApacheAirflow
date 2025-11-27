@@ -1,0 +1,41 @@
+id,road_type,num_lanes,curvature,speed_limit,lighting,weather,road_signs_present,public_road,time_of_day,holiday,school_season,num_reported_accidents,accident_risk
+1018,  rural  ,4.0,0.03,25.0,night,rainy,False,True,evening,True,False,2.0,0.26
+1024,  highway  ,1.0,0.28,70.0,  dim  ,rainy,False,True,morning,True,True,1.0,0.41
+1034,  rural  ,3.0,0.02,25.0,dim,clear,False,True,afternoon,False,True,2.0,0.05
+1037,  rural  ,,0.47,35.0,dim,rainy,True,True,morning,True,True,2.0,0.3
+1048,  rural  ,4.0,0.84,25.0,daylight,foggy,False,True,afternoon,False,True,1.0,0.35
+1052,  highway  ,2.0,0.11,45.0,night,rainy,True,True,evening,False,True,1.0,0.4
+1097,  urban  ,3.0,0.77,70.0,daylight,rainy,False,False,evening,False,True,3.0,0.6
+1100,  rural  ,1.0,0.55,,daylight,clear,False,False,morning,False,False,0.0,0.22
+1114,  urban  ,4.0,0.21,25.0,night,  rainy  ,True,False,evening,False,False,1.0,0.34
+1145,  highway  ,,0.73,25.0,  daylight  ,clear,True,True,morning,True,False,1.0,0.16
+1163,  highway  ,4.0,0.63,,dim,clear,False,False,afternoon,False,True,1.0,0.23
+1173,  rural  ,1.0,0.07,60.0,daylight,rainy,False,False,afternoon,True,False,0.0,0.29
+1200,  highway  ,2.0,0.86,35.0,dim,clear,True,False,evening,True,True,0.0,0.25
+1201,  urban  ,1.0,0.11,25.0,night,rainy,True,False,afternoon,False,False,1.0,0.37
+1205,  rural  ,3.0,0.0,25.0,night,rainy,False,True,afternoon,True,False,1.0,0.26
+1215,  highway  ,1.0,0.62,35.0,night,clear,False,False,  afternoon  ,True,False,1.0,0.37
+1218,  highway  ,2.0,0.04,35.0,dim,  clear  ,True,True,afternoon,True,True,,0.03
+1227,  rural  ,4.0,,45.0,dim,  clear  ,False,False,evening,False,False,1.0,0.16
+1234,  rural  ,1.0,0.55,,night,foggy,True,True,afternoon,False,False,1.0,0.47
+1237,  highway  ,2.0,,70.0,night,clear,True,False,evening,False,False,1.0,0.55
+1243,  urban  ,1.0,0.23,70.0,dim,rainy,True,True,afternoon,False,True,1.0,0.37
+1253,  highway  ,1.0,0.81,,  dim  ,foggy,True,False,morning,True,False,2.0,0.47
+1255,  rural  ,4.0,0.92,35.0,daylight,rainy,True,False,  evening  ,False,False,2.0,0.36
+1258,  urban  ,2.0,0.47,35.0,  night  ,rainy,True,False,morning,True,True,1.0,0.44
+1265,  rural  ,3.0,0.97,70.0,daylight,foggy,False,False,morning,True,False,3.0,0.7
+1269,  highway  ,2.0,0.26,70.0,daylight,foggy,False,False,afternoon,False,True,2.0,0.4
+1275,  rural  ,2.0,0.48,45.0,daylight,rainy,True,False,afternoon,False,False,0.0,0.25
+1292,  urban  ,1.0,0.89,45.0,dim,clear,True,False,evening,True,False,1.0,0.34
+1307,  rural  ,3.0,0.49,60.0,dim,rainy,True,False,afternoon,False,False,1.0,0.44
+1311,  rural  ,2.0,0.81,70.0,night,clear,False,True,morning,True,True,2.0,0.69
+1323,  highway  ,3.0,0.41,60.0,night,rainy,False,False,morning,True,False,2.0,0.63
+1359,  rural  ,2.0,0.57,60.0,dim,clear,True,True,afternoon,True,True,1.0,0.4
+1387,  urban  ,1.0,0.63,35.0,dim,clear,False,True,morning,True,False,,0.26
+1420,  rural  ,4.0,0.27,45.0,night,foggy,True,False,evening,False,False,1.0,0.32
+1430,  rural  ,2.0,0.48,45.0,night,rainy,False,True,afternoon,True,True,1.0,0.44
+1454,  urban  ,2.0,0.41,45.0,night,clear,True,True,afternoon,False,True,0.0,0.4
+1461,  rural  ,,0.03,60.0,daylight,clear,False,False,afternoon,True,False,2.0,0.22
+1486,  urban  ,1.0,0.37,70.0,dim,clear,False,True,evening,False,False,0.0,0.39
+1496,  rural  ,3.0,,45.0,daylight,clear,False,True,morning,True,False,1.0,0.06
+1499,  highway  ,3.0,0.87,35.0,night,clear,False,True,morning,True,False,1.0,0.56
